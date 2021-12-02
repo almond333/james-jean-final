@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    background: #F3F3F3;
+}
+
+/* utility classes */
+
+.d-block{
+    display: block;
+}
+.container{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ms-2{
+    margin-left: 10px;
+}
+h2{
+    font-size: 30px;
+}
+
+.axo {
+  position: relative;
+  right: 24px !important;
+}
+
+.spring {
+  position: relative;
+  right: 160px !important;
+}
+
+.biblio {
+  position: relative;
+  right: 123px !important;
+}
+
+/* header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+header h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #293E53;
+    font-size: 40px;
+}
+header h1 span:last-child{
+    font-weight: 100;
+}
+
+/* first section */
+
+#first h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+#first h2 div {
+    position: relative;
+    right: 95px;
+}
+
+#first{
+    padding: 40px 0;
+}
+#first > div{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 25px;
+    padding: 20px;
+    margin-bottom: -50px;
+}
+#first h2 {
+    background: #BCC6BB;
+    color: #fff;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+}
+#first ul {
+    line-height: 1.7;
+    color: #293E53;
+}
+
+/* second section */
+
+.photo2{
+    border-radius: 120px;
+    margin-bottom: -60px;
+    margin-top: 7px;
+    max-width: 420px;
+}
+
+/* third section */
+#third{
+    padding: 40px 0;
+}
+
+#third h2{
+    color: #44603B;
+    margin: 0 auto;
+    max-width: 1070px;
+    font-size: 37px;
+}
+
+#third>div{
+    background: #DEE4DA;
+}
+#third > div >div{
+    max-width: 1030px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:400px 600px;
+    gap: 30px;
+    line-height: 1.5;
+    color: #44603B;
+    align-items: flex-start;
+    padding: 40px 25px;
+}
+#third > div p{
+    font-weight: 600;
+}
+.photo3{
+    max-width: 400px;margin: auto;width: 100%;position: absolute;top: 20px;
+}
+.photo1{
+    width: 100%;max-width: 350px; margin-top: -130px;position: relative;
+}
+.third_p{
+    margin-top: 45px;max-width: 469px;
+                font-size: 18px;
+}
+
+/* index section */
+
+.two-cols {
+border: 1px solid #44603B;
+min-height:100px;
+min-width: 600px;
+display: flex;
+}
+
+.second_p{
+  border: 1px solid rgb(29, 157, 207);
+  min-height:100px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.jamesjean{
+  border: 1px solid rgb(136, 111, 226);
+  min-height:100px;
+}
+
+  
+#bio{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 50px;
+    max-width: 830px;
+    margin: 0 auto;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
